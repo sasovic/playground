@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "semantic-release": "^19.0.0",
+    "@semantic-release/changelog": "^6.0.0"
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  }
+}
