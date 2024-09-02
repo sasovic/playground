@@ -1,0 +1,11 @@
+{
+branches: [
+{ name: "main" },
+{ name: "rc", channel: "rc", prerelease: "rc" }, 
+],
+"plugins": [
+"@semantic-release/commit-analyzer",
+"@semantic-release/release-notes-generator",
+"@semantic-release/github"
+]
+}
